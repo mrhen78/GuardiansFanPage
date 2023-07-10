@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&family=Sigmar&display=swap');
+
+/*selectors common across page*/
+
+a {
+    color: white !important;
+}
+
+#bautista,
+#groot,
+#pratt,
+#rocket,
+#saldana,
+#supporting {
+    padding: 3rem 0;
+}
+
+body {
+    font-family: Roboto;
+    text-align: center;
+}
+
+.card {
+    margin: auto;
+    text-align: left;
+}
+
+.container-fluid,
+.dropdown-item li,
+#firstsection,
+#footerbar,
+nav.bg-body-tertiary,
+#rocket,
+#saldana,
+#supporting,
+#thirdsection,
+ul.dropdown-menu {
+    background-color: rgb(64, 64, 222) !important;
+    color: white;
+}
+
+.groot,
+.rocket {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+#groot .card,
+#rocket .card {
+    display: inline-block;
+    margin: 3rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    padding: 2rem;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+@media (max-width: 900px) {
+
+    #bautista .card,
+    #groot .card,
+    #pratt .card,
+    #rocket .card,
+    #saldana .card {
+        width: 80% !important;
+    }
+
+    #bautista h1,
+    #groot h1,
+    #pratt h1,
+    #rocket h1,
+    #saldana h1,
+    #supporting h1 {
+        padding-top: 0;
+    }
+
+    .card img {
+        width: 100% !important;
+    }
+
+    .groot,
+    .rocket {
+        width: 80%;
+    }
+
+    #groot .card,
+    #rocket .card {
+        display: block;
+        margin: 3rem auto 0 auto;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        padding: 2rem;
+        width: 100% !important;
+    }
+
+    img {
+        display: block;
+        width: 80% !important;
+    }
+
+}
+
+/*Navbar*/
+
+.container-fluid a {
+    margin: 0 25px;
+}
+
+li a:hover {
+    color: black !important;
+}
+
+.navbar p {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 2rem 2rem 1rem 2rem;
+}
+
+/*Hompepage Section */
+
+#firstsection h1 {
+    display: inline-block;
+    font-size: 5rem;
+    font-style: italic;
+    font-weight: bold;
+    padding: 200px 50px 0 50px;
+}
+
+#firstsection img {
+    border: 30px solid white;
+    bottom: 130px;
+    margin: 20px 40px;
+    position: relative;
+    transform: rotate(10deg);
+    width: 50%;
+}
+
+@media (max-width:1200px) {
+
+    #firstsection h1 {
+        display: block;
+        font-size: 4rem;
+        padding-bottom: 5rem;
+        padding-top: 10rem;
+    }
+
+    #firstsection img {
+        border: 15px solid white;
+        bottom: 50px;
+        display: block;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        transform: none;
+        width: 80%;
+    }
+}
+
+/*Second Section--The Guardians Movies*/
+
+.container {
+    padding: 3rem;
+    width: 60%;
+}
+
+.container h5,
+.container p {
+    text-shadow:
+        1px 1px 0 #444,
+        -1px -1px 0 #444,
+        1px -1px 0 #444,
+        -1px 1px 0 #444,
+        1px 1px 0 #444;
+}
+
+.container img {
+    margin: 0 !important;
+}
+
+#secondsection h1 {
+    padding: 5rem 2rem 0 2rem;
+}
+
+#secondsection img {
+    border: 15px solid black;
+    margin: 3rem;
+    width: 30%;
+}
+
+@media (max-width: 900px) {
+    .container {
+        width: 100%;
+    }
+
+    #secondsection h1 {
+        padding: 3rem 2rem 0 2rem;
+    }
+
+    #secondsection img {
+        margin: 2rem auto;
+    }
+
+}
+
+/*James Gunn--The Third Section */
+
+.imagediv {
+    position: relative;
+}
+
+.imagefive {
+    left: 240px;
+    transform: rotate(-10deg);
+}
+
+.imagefour {
+    left: 280px;
+    top: 40px;
+    transform: rotate(-8deg);
+}
+
+.imageone {
+    left: 400px;
+    top: 100px;
+    transform: rotate (-2deg);
+}
+
+.imagethree {
+    left: 320px;
+    top: 60px;
+    transform: rotate(-6deg);
+}
+
+.imagetwo {
+    left: 360px;
+    top: 80px;
+    transform: rotate(-4deg);
+}
+
+#thirdsection h1 {
+    margin: auto;
+    padding: 5rem 8rem;
+    width: 80%;
+}
+
+#thirdsection img {
+    border: 20px solid white;
+    position: absolute;
+    width: 50%;
+}
+
+#thirdsection img:hover {
+    z-index: 1;
+}
+
+#thirdsection p {
+    padding: 35rem 15rem 3rem 15rem;
+    margin-bottom: 0;
+}
+
+@media (max-width: 1200px) {
+    .imagefive {
+        left: 180px;
+    }
+
+    .imagefour {
+        left: 220px;
+    }
+
+    .imageone {
+        left: 340px;
+    }
+
+    .imagethree {
+        left: 260px;
+    }
+
+    .imagetwo {
+        left: 300px;
+    }
+
+    #thirdsection p {
+        padding: 29rem 10rem 3rem 10rem;
+    }
+}
+
+@media (max-width: 900px) {
+
+    #thirdsection h1 {
+        padding: 3rem 2rem;
+
+    }
+
+    #thirdsection img {
+        border: 10px solid white;
+        left: 0;
+        margin: auto;
+        position: relative;
+        top: 0;
+        transform: none;
+    }
+
+    #thirdsection p {
+        padding: 3rem 4rem;
+    }
+}
+
+/*Pratt section*/
+
+/*Saldana section*/
+
+/*Bautista Section*/
+
+/*Rocet Section*/
+
+.rocket {
+    border: 20px solid white;
+}
+
+@media (max-width: 900px) {
+
+    .rocket {
+        border: 10px solid white;
+    }
+
+}
+
+/*Groot Section*/
+
+.groot {
+    border: 20px solid black;
+}
+
+@media (max-width: 900px) {
+
+    .groot {
+        border: 10px solid black;
+    }
+
+}
+
+/*Supporting Cast and Characters*/
+
+.left {
+    float: left;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.leftp {
+    margin-left: 8rem !important;
+    width: 80% !important;
+}
+
+.linda,
+.llyla {
+    bottom: 20rem;
+    position: relative;
+    width: 25% !important;
+}
+
+.lindap {
+    display: inline-block;
+    margin-bottom: 5rem !important;
+    width: 30% !important;
+}
+
+.right {
+    float: right;
+    margin-left: 3rem;
+    margin-right: 7rem;
+}
+
+#supporting a {
+    color: white;
+}
+
+#supporting h1 {
+    margin: 0;
+    padding: 2rem 2rem 6rem 2rem;
+}
+
+#supporting h5 {
+    padding-bottom: 2rem;
+}
+
+#supporting hr {
+    border-top: dotted 10px;
+    color: white;
+    margin: 5rem auto;
+    width: 20%;
+}
+
+#supporting img {
+    border-radius: 50%;
+    width: 30%;
+}
+
+#supporting p {
+    color: white;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: 80%;
+}
+
+@media (max-width: 900px) {
+
+    .linda,
+    .llyla {
+        position: static;
+        width: 80% !important;
+    }
+
+    .lindap {
+        padding-bottom: 2rem;
+        width: 80% !important;
+    }
+
+    #supporting h1 {
+        padding-bottom: 3rem;
+    }
+
+    #supporting h5 {
+        padding-bottom: 1.5rem;
+    }
+
+    #supporting img {
+        float: none;
+        margin: auto;
+        padding-bottom: 1.5rem;
+    }
+
+    #supporting p {
+        margin: auto !important;
+    }
+}
+
+/*Footer Bar */
+
+#footerbar {
+    text-align: left;
+}
+
+#footerbar img {
+    display: inline-block;
+    margin: 0 1rem;
+    width: 1.5rem;
+}
+
+#footerbar p {
+    color: white;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 30px 15px 30px 25px;
+}
+
+@media (max-width: 900px) {
+    #footerbar img {
+        display: inline-block !important;
+        margin: 0 1rem !important;
+        width: 1.5rem !important;
+    }
+}
