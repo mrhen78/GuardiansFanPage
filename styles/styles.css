@@ -474,7 +474,7 @@ li a:hover {
 @media (max-width: 900px) {
     #footerbar img {
         display: inline-block !important;
-        margin: 0 .7rem !important;
+        margin: 0 .5rem !important;
         width: 1.5rem !important;
     }
 }
