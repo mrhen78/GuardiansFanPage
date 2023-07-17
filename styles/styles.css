@@ -475,6 +475,6 @@ li a:hover {
     #footerbar img {
         display: inline-block !important;
         margin: 0 1em !important;
-        width: 1rem !important;
+        width: .75rem !important;
     }
 }
