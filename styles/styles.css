@@ -477,4 +477,6 @@ li a:hover {
         margin: 0 1em !important;
         width: .8rem !important;
     }
+    #footerbar p {
+        font-size: .8rem; }
 }
