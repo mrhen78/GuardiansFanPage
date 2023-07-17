@@ -471,10 +471,10 @@ li a:hover {
     padding: 30px 15px 30px 25px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 640px) {
     #footerbar img {
         display: inline-block !important;
         margin: 0 1em !important;
-        width: .75rem !important;
+        width: .8rem !important;
     }
 }
