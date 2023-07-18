@@ -474,11 +474,11 @@ li a:hover {
 @media (max-width: 900px) {
     #footerbar img {
         display: inline-block !important;
-        margin: 0 1rem !important;
-        width: .8rem !important;
+        margin: 0 .5rem !important;
+        width: 1rem !important;
     }
     #footerbar p {
-        font-size: .8rem;
+        font-size: 1rem;
         padding: 30px 5px 30px 10px;
     }
 }
