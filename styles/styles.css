@@ -479,6 +479,6 @@ li a:hover {
     }
     #footerbar p {
         font-size: .8rem;
-         padding: nonex;
+         padding: none;
     }
 }
