@@ -449,6 +449,7 @@ li a:hover {
 
     #supporting p {
         margin: auto !important;
+        text-align: left;
     }
 }
 
