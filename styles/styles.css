@@ -273,6 +273,7 @@ li a:hover {
 #thirdsection p {
     padding: 35rem 15rem 3rem 15rem;
     margin-bottom: 0;
+    text-align: left;
 }
 
 @media (max-width: 1200px) {
